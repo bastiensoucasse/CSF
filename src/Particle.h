@@ -162,7 +162,7 @@ public:
     }
 
     void printself(std::string s = "") {
-        std::cout << s << ": " << this->getPos().f[0] << " movable:  " << this->movable << std::endl;
+        // std::cout << s << ": " << this->getPos().f[0] << " movable:  " << this->movable << std::endl;
     }
 };
 
